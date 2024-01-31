@@ -35,7 +35,7 @@ public class Date {
         this.year = year;
     }
 
-    public  boolean validateday()  {
+    public  boolean validateDay()  {
         if (month ==2 && day> 31)  {
             System.out.println("february does not exceed 29");
         }
@@ -44,13 +44,13 @@ public class Date {
         }
        return true;
     }
-    public boolean validatemonth() {
+    public boolean validateMonth() {
         if (day <1 && month >12 ) {
             System.out.println("out of date");
         }
         return true;
     }
-    public boolean validateyear() {
+    public boolean validateYear() {
         return year % 4 ==0;
     }
 }

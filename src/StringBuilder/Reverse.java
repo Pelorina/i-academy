@@ -18,6 +18,9 @@ public class Reverse {
         System.out.println("occurrences");
         String method="all argument constructor";
         StringBuilder newMethod=new StringBuilder(method);
+        newMethod.append("open");
+        newMethod.setCharAt(2,'a');
+        System.out.println(newMethod);
         String voids=new String();
         System.out.println(newMethod.replace(5,50,voids));
          newName.setCharAt(5,'e');
@@ -32,15 +35,7 @@ public class Reverse {
         StringBuilder check=new StringBuilder("ada");
         StringBuilder checks=new StringBuilder("ada");
         StringBuilder checkMate=new StringBuilder(check.compareTo(checks));
-        if (check ==checks){
-            System.out.println(true);
-        }else {
-            System.out.println(false);
-        }
-
-
-
-
+        System.out.println(checkMate);
 
 
         }
